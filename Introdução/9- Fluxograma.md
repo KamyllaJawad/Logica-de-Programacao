@@ -99,22 +99,9 @@ O **Flowgorithm** é um programa gratuito que permite criar fluxogramas de forma
   Saída: `"Menor de idade"`
 
 ![maioridade](../assets/maiorDEidade.png)
----
-
-## 🔁 Exemplo com Repetição – Contar de 1 até 5
-
-### Algoritmo:
-1. Início  
-2. Para i de 1 até 5  
-   - Mostrar i  
-3. Fim
-
-### Blocos no Flowgorithm:
-- 🟩 Processo: `i <- 1`  
-- 🔁 Use o laço (For/Enquanto)  
-- 🟦 Saída: `Escreva i`
 
 ---
+
 
 ## 🛠️ Dica: Como configurar o Flowgorithm em português
 
