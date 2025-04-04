@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="variaveiseatribuicoes"/>
+        <attribute name="authors" value="kamyl"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-03 07:50:57 "/>
+        <attribute name="created" value="a2FteWw7S0pfSFA7MjAyNS0wNC0wMzsiMDc6MjM6NTQgIjsyMTMw"/>
+        <attribute name="edited" value="a2FteWw7S0pfSFA7MjAyNS0wNC0wMzsiMDc6NTA6NTcgIjsxOzIyNDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Criamos espa&#231;o de memoria"/>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <declare name="altura" type="Real" array="False" size=""/>
+            <declare name="maiorDeIdade" type="Boolean" array="False" size=""/>
+            <comment text="atribuimos um valor a nossas variaveis"/>
+            <assign variable="nome" expression="&quot;lucas&quot;"/>
+            <assign variable="idade" expression="28"/>
+            <assign variable="altura" expression="1.68"/>
+            <assign variable="maiorDeIdade" expression="true"/>
+        </body>
+    </function>
+</flowgorithm>

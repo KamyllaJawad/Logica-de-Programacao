@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.18">
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Olá, mundo!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

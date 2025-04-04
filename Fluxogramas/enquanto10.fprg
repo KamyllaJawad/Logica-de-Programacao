@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="enquanto10"/>
+        <attribute name="authors" value="kamyl"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-03 07:23:46 "/>
+        <attribute name="created" value="a2FteWw7S0pfSFA7MjAyNS0wNC0wMzsiMDc6MTU6MjAgIjsyMTI0"/>
+        <attribute name="edited" value="a2FteWw7S0pfSFA7MjAyNS0wNC0wMzsiMDc6MjM6NDYgIjsxOzIyMzk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor" type="Real" array="False" size=""/>
+            <output expression="&quot;digite um valor at&#233; 10&quot;" newline="True"/>
+            <input variable="valor"/>
+            <while expression="valor != 10">
+                <output expression="&quot;de novo&quot;" newline="True"/>
+                <input variable="valor"/>
+            </while>
+            <output expression="&quot;deu 10&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

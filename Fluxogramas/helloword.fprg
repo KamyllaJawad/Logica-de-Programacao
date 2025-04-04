@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="helloword"/>
+        <attribute name="authors" value="kamyl"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-03 07:12:25 "/>
+        <attribute name="created" value="a2FteWw7S0pfSFA7MjAyNS0wNC0wMzsiMDY6NTg6MzEgIjsyMTMy"/>
+        <attribute name="edited" value="a2FteWw7S0pfSFA7MjAyNS0wNC0wMzsiMDc6MTI6MjUgIjsyOzIyMzU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Algoritmo de Teste"/>
+            <declare name="nomepessoa" type="String" array="False" size=""/>
+            <output expression="&quot;digite seu nome: &quot;" newline="True"/>
+            <input variable="nomepessoa"/>
+            <output expression="&quot;Ol&#225; &quot; &amp; nomepessoa" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

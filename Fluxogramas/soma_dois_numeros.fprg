@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="soma_dois_numeros"/>
+        <attribute name="authors" value=""/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-03 09:58:28 "/>
+        <attribute name="created" value="a2FteWw7S0pfSFA7MjAyNS0wNC0wMzsiMDk6NTU6NTkgIjsyMTQy"/>
+        <attribute name="edited" value="a2FteWw7S0pfSFA7MjAyNS0wNC0wMzsiMDk6NTg6MjggIjsxOzIyNDk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero1, numero2, soma" type="Integer" array="False" size=""/>
+            <output expression="&quot;digite numero 1: &quot;" newline="True"/>
+            <input variable="numero1"/>
+            <output expression="&quot;digite numero2: &quot;" newline="True"/>
+            <input variable="numero2"/>
+            <assign variable="soma" expression="numero1 + numero2"/>
+            <output expression="&quot;Resultado: &quot; &amp; soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
