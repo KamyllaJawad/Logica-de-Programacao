@@ -86,7 +86,7 @@ Isso mostra que **o valor da variável pode mudar**, mas o **nome dela continua 
 ### 🏷️ **O que são tipos de variáveis?**
 Os **tipos de variáveis** são como **categorias** que ajudam a entender que tipo de informação você está guardando.
 
-### 🏷️ **Exemplos de tipos de variáveis:**
+### 🏷️ **Cada tipo de variável:**
 
 - **Inteiro**: `idade = 20`
 - **Flutuante**: `altura = 1.75`
@@ -99,12 +99,12 @@ Os **tipos de variáveis** são como **categorias** que ajudam a entender que ti
 
 Os tipos de variáveis ajudam o computador a entender como **trabalhar com os dados**.
 Por exemplo, se você tentar somar um número com uma palavra, o computador não vai entender.
-### 🏷️ **Exemplo de erro:**
+#### **Exemplo de erro:**
 ```plaintext
 soma = 10 + "5"  # Isso vai dar erro, porque não dá para somar um número com uma palavra.
 ```
 
-### 🏷️ **Como escolher o tipo certo?**
+### 📌 **Como escolher o tipo certo?**
 
 - **Inteiro**: Use quando precisar de números inteiros (sem casas decimais).
 - **Flutuante**: Use quando precisar de números com casas decimais.
@@ -131,14 +131,15 @@ Exemplo: `notas = [10, 8, 9]`, `produtos = ["maçã", "banana", "laranja"]`.
 
 - **Dicionário**: Para informações estruturadas, como dados de um aluno (nome, idade, notas).
 Exemplo: `aluno = {"nome": "João", "idade": 20, "notas": [10, 8, 9]}`.
+
 🤯 Dica da Profê: **Use dicionários quando precisar de informações organizadas em pares de chave-valor, como um mini banco de dados.Não confunda com listas, que são apenas coleções de itens.**
 
-### 🏷️ **Resumo dos tipos de variáveis:**
-| Tipo        | Exemplo                  | Descrição                          |
-|-------------|--------------------------|------------------------------------|
-| Inteiro     | `idade = 20`            | Números inteiros                   |
-| Flutuante  | `altura = 1.75`         | Números com casas decimais         |
-| String      | `nome = "Maria"`        | Texto (palavras)                   |
-| Booleano    | `estudando = verdadeiro` | Verdadeiro ou falso                 |
-| Lista       | `notas = [10, 8, 9]`    | Coleção de valores                 |
-| Dicionário  | `aluno = {"nome": "João", "idade": 20}` | Estrutura de chave-valor          |
+### 🧾 **Resumo dos tipos de variáveis:**
+| Tipo        | Exemplo                  | Descrição                          | Quando utilizar |
+|-------------|--------------------------|------------------------------------|------------------|
+| Inteiro     | `idade = 20`            | Números inteiros                   | Para contagens, idades, quantidades de números exatos|
+| Flutuante  | `altura = 1.75`         | Números com casas decimais         | Para medidas, notas, valores monetários de números flutuantes|
+| String      | `nome = "Maria"`        | Texto (palavras)                   |Para nomes, endereços, textos|
+| Booleano    | `estudando = verdadeiro` | Verdadeiro ou falso                 |Para condições, sim/não, verdadeiro/falso |
+| Lista       | `notas = [10, 8, 9]`    | Coleção de valores                 |Para listas de itens, como notas, produtos|
+| Dicionário  | `aluno = {"nome": "João", "idade": 20}` | Estrutura de chave-valor          |Para informações organizadas, como dados de um aluno|
