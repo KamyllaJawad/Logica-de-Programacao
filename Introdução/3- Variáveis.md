@@ -81,3 +81,64 @@ Isso mostra que **o valor da variável pode mudar**, mas o **nome dela continua 
 | Atribuição     | Ação de guardar um valor na variável          | `nota = 9.5`                |
 | Reatribuição   | Trocar o valor anterior por outro             | `nota = 7.0`                |
 
+## Tipos de Variáveis
+
+### 🏷️ **O que são tipos de variáveis?**
+Os **tipos de variáveis** são como **categorias** que ajudam a entender que tipo de informação você está guardando.
+
+### 🏷️ **Exemplos de tipos de variáveis:**
+
+- **Inteiro**: `idade = 20`
+- **Flutuante**: `altura = 1.75`
+- **String**: `nome = "Maria"`
+- **Booleano**: `estudando = verdadeiro`
+- **Lista**: `notas = [10, 8, 9]`
+- **Dicionário**: `aluno = {"nome": "João", "idade": 20}`
+
+### 🏷️ **Por que isso é importante?**
+
+Os tipos de variáveis ajudam o computador a entender como **trabalhar com os dados**.
+Por exemplo, se você tentar somar um número com uma palavra, o computador não vai entender.
+### 🏷️ **Exemplo de erro:**
+```plaintext
+soma = 10 + "5"  # Isso vai dar erro, porque não dá para somar um número com uma palavra.
+```
+
+### 🏷️ **Como escolher o tipo certo?**
+
+- **Inteiro**: Use quando precisar de números inteiros (sem casas decimais).
+- **Flutuante**: Use quando precisar de números com casas decimais.
+- **String**: Use para texto (palavras, frases).
+- **Booleano**: Use para verdadeiro ou falso (sim ou não).
+- **Lista**: Use para guardar várias informações em uma única variável.
+- **Dicionário**: Use para guardar informações em pares de chave-valor (como um mini banco de dados).
+
+### 🏷️ **Quando utilizar cada tipo de variável**
+- **Inteiro**: Para contagens, idades, quantidades.
+Exemplo: `idade = 20`, `quantidade = 5`.
+
+- **Flutuante**: Para medidas, notas, valores monetários.
+Exemplo: `altura = 1.75`, `preco = 19.99`.
+
+- **String**: Para nomes, endereços, textos.
+Exemplo: `nome = "Maria"`, `endereco = "Rua A, 123"`.
+
+- **Booleano**: Para condições, sim/não, verdadeiro/falso.
+Exemplo: `estudando = verdadeiro`, `aprovado = falso`.
+
+- **Lista**: Para coleções de itens, como notas, produtos.
+Exemplo: `notas = [10, 8, 9]`, `produtos = ["maçã", "banana", "laranja"]`.
+
+- **Dicionário**: Para informações estruturadas, como dados de um aluno (nome, idade, notas).
+Exemplo: `aluno = {"nome": "João", "idade": 20, "notas": [10, 8, 9]}`.
+🤯 Dica da Profê: **Use dicionários quando precisar de informações organizadas em pares de chave-valor, como um mini banco de dados.Não confunda com listas, que são apenas coleções de itens.**
+
+### 🏷️ **Resumo dos tipos de variáveis:**
+| Tipo        | Exemplo                  | Descrição                          |
+|-------------|--------------------------|------------------------------------|
+| Inteiro     | `idade = 20`            | Números inteiros                   |
+| Flutuante  | `altura = 1.75`         | Números com casas decimais         |
+| String      | `nome = "Maria"`        | Texto (palavras)                   |
+| Booleano    | `estudando = verdadeiro` | Verdadeiro ou falso                 |
+| Lista       | `notas = [10, 8, 9]`    | Coleção de valores                 |
+| Dicionário  | `aluno = {"nome": "João", "idade": 20}` | Estrutura de chave-valor          |
