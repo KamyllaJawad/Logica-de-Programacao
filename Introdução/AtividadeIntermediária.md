@@ -3,7 +3,7 @@
 ### 📝 História:
 Juriscleyde quer muito comprar um jogo novo que custa **100 moedas**. Para isso, ele guarda um valor diferente a cada dia no seu cofre. Seu desafio é criar um programa que acompanhe o progresso do Juriscleyde.
 
-O programa deve começar com o total guardado em **zero**, e **repetir o processo de perguntar quanto Pedro guardou no dia**. Cada valor deve ser **somado ao total guardado**. Isso deve continuar **enquanto o total for menor que 100**.
+O programa deve começar com o total guardado em **zero**, e **repetir o processo de perguntar quanto Juriscleyde  guardou no dia**. Cada valor deve ser **somado ao total guardado**. Isso deve continuar **enquanto o total for menor que 100**.
 
 Assim que o valor acumulado **atingir ou ultrapassar 100 moedas**, o programa deve parar e **mostrar uma mensagem de que o objetivo foi alcançado**.
 
