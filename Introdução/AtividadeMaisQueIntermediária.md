@@ -34,7 +34,7 @@ Claro! Vamos entender didaticamente **como funciona o desafio da Tabuada Inversa
 
 ---
 
-## 🧠 Desafio 8 – **Tabuada Inversa da Sabedoria Ancestral**  
+## 🧠 Desafio 3 – **Tabuada Inversa da Sabedoria Ancestral**  
 **Objetivo:** Exibir a tabuada de um número **de 10 até 1**, usando **exclusivamente o comando PARA** (FOR).
 
 ---
