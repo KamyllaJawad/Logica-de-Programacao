@@ -55,7 +55,7 @@ Compreender:
 - Apresentar o conteúdo de forma **didática e clara** para toda a turma.
 - Todos do grupo devem **participar da apresentação**.
 - A entrega do arquivo de apresentação será feita pelo AVA e **oralmente na próxima aula**.
-- Tempo de apresentação deve ser de até 10 minutos, não podendo ultrapassar!
+- Tempo de apresentação deve ser de até **10 minutos**, não podendo ultrapassar!
 - Para apresentação no projetor,o líder da equipe deve enviar para o email do professor Rodrigo Cane(rodrigo.cane@edu.sc.senai.br) com assunto "Apresentação LOPR 17/04 - [SEU NOME]"
 
 ---
