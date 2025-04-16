@@ -1,5 +1,8 @@
+
 ## 🎓 **Mini Simulado – Lógica Limpa e Sem Gambiarra**  
-**Tema:** *Criar código claro, correto e lógico – sem “viajar na maionese”*
+**Tema:** *Criar código claro, correto e lógico – sem "viajar na maionese"!*
+
+> 🧠 Cada questão tem uma alternativa correta. As demais ilustram **erros comuns**, inclusive "gambiarras criativas" que devem ser evitadas.
 
 ---
 
@@ -10,6 +13,8 @@ a) `20 = idade`
 b) `idade ← "vinte anos"`  
 c) `idade ← 20`  
 d) `var idade == 20`
+
+✅ **Resposta correta:** **c)** `idade ← 20`
 
 ---
 
@@ -28,6 +33,8 @@ b) Está comparando texto com número
 c) Está faltando o Senão  
 d) A variável nota deveria se chamar notaFinal
 
+✅ **Resposta correta:** **b)** Está comparando **texto com número**
+
 ---
 
 ### ✅ **Questão 3: Estrutura de repetição adequada**
@@ -38,6 +45,8 @@ b) Se
 c) Para  
 d) Repita até
 
+✅ **Resposta correta:** **c)** Para
+
 ---
 
 ### ✅ **Questão 4: Operador lógico correto**
@@ -47,6 +56,8 @@ a) `||`
 b) `==`  
 c) `&&`  
 d) `!=`
+
+✅ **Resposta correta:** **c)** `&&` (E lógico)
 
 ---
 
@@ -66,6 +77,8 @@ b) Está faltando variável
 c) Está faltando FimEnquanto  
 d) Está certo sim!
 
+✅ **Resposta correta:** **a)** Condição repetida sem necessidade (confunde o programa!)
+
 ---
 
 ### ✅ **Questão 6: Repetição correta para contagem regressiva**
@@ -75,6 +88,8 @@ a) `Para i de 1 até 10`
 b) `Para i de 10 até 1 passo -1`  
 c) `Enquanto i < 10`  
 d) `Repita até i == 0`
+
+✅ **Resposta correta:** **b)** `Para i de 10 até 1 passo -1`
 
 ---
 
@@ -86,6 +101,8 @@ b) `Se (media >= 7) então Escreva("Aprovado")`
 c) `nota1 ← "cinco" + 3`  
 d) `idade ← 20`
 
+✅ **Resposta correta:** **c)** Está tentando somar texto com número – erro lógico!
+
 ---
 
 ### ✅ **Questão 8: Condição composta correta**
@@ -96,6 +113,8 @@ b) `nota == 7 && frequencia == 75`
 c) `nota > 7 && frequencia > 75`  
 d) `nota != 7 || frequencia < 75`
 
+✅ **Resposta correta:** **c)** `nota > 7 && frequencia > 75`
+
 ---
 
 ### ✅ **Questão 9: Reatribuição**
@@ -105,6 +124,8 @@ a) `nome == "Lucas"`
 b) `nome ← "Lucas"`  
 c) `Lucas ← nome`  
 d) `nome = nome + "Lucas"`
+
+✅ **Resposta correta:** **b)** `nome ← "Lucas"`
 
 ---
 
@@ -119,8 +140,10 @@ Senão
     Escreva("Não é dez")
 FimSe
 ```
+
 a) Vai mostrar “É dez”  
 b) Vai dar erro porque `=` não compara  
 c) Está comparando certo  
 d) Está esquecendo o FimPara
 
+✅ **Resposta correta:** **b)** Está usando `=` em vez de `==` para comparar!
