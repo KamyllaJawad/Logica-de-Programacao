@@ -24,7 +24,7 @@
    * O **Insertion Sort** pega cada elemento da lista e o insere na posição correta dentro da parte já ordenada. Isso é repetido para cada elemento até a lista inteira estar ordenada.
    * **Desvantagem**: Embora eficiente para listas pequenas ou quase ordenadas, sua complexidade é alta para listas grandes.
 
-4. **Ordenação Rápida (Quick Sort)**:
+4. **Ordenação Rápida (Quick Sort)**
 
    * O **Quick Sort** é um dos algoritmos de ordenação mais eficientes. Ele escolhe um "pivô" e divide a lista em duas partes: uma com elementos menores que o pivô e outra com elementos maiores que o pivô. A ordenação é então aplicada recursivamente às duas sublistas.
    * **Vantagem**: Rápido e eficiente para grandes listas. Sua complexidade média é muito boa.
